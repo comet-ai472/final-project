@@ -104,11 +104,49 @@
     animation: tw-blink 0.5s step-end infinite;
   }
   @keyframes tw-blink { 50% { opacity: 0; } }
+
+  .v1_44 {
+    position: absolute;
+    top: 21304px; left: -85px;
+    width: 100%; height: 1117px;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 10;
+  }
+  .v1_45 { width:445px; height:445px; background:url("img/v1_45.png") center/cover no-repeat; position:absolute; top:217px; left:1263px; }
+  .v1_46 { width:393px; height:379px; background:url("img/v1_46.png") center/cover no-repeat; position:absolute; top:407px; left:430px; z-index:-1; }
+  .v1_47 { width:524px; height:73px;  background:url("img/v1_47.png") center/cover no-repeat; position:absolute; top:201px; left:695px; }
+  .v1_48 { width:587px; height:586px; background:url("img/v1_48.png") center/cover no-repeat; position:absolute; top:385px; left:1114px; transform:rotate(-179deg); z-index:-1; }
+  .v1_49 { width:359px; height:495px; background:url("img/v1_49.png") center/cover no-repeat; position:absolute; top:432px; left:1221px; transform:rotate(90deg); }
+  .v1_50 { width:195px; height:269px; background:url("img/v1_50.png") center/cover no-repeat; position:absolute; top:134px; left:583px; transform:rotate(-89deg); }
+  .v1_51 { width:232px; height:493px; background:url("img/v1_51.png") center/cover no-repeat; position:absolute; top:178px; left:1181px; }
+  .v1_52 { width:232px; height:115px; background:url("img/v1_52.png") center/cover no-repeat; position:absolute; top:151px; left:1175px; }
+  .v1_53 { width:391px; height:833px; background:url("img/v1_53.png") center/cover no-repeat; position:absolute; top:139px; left:183px; transform:rotate(90deg); }
+  .v1_54 { width:146px; height:132px; background:url("img/v1_54.png") center/cover no-repeat; position:absolute; top:530px; left:600px; opacity:0.8; }
+  .v1_55 { width:192px; height:121px; background:url("img/v1_55.png") center/cover no-repeat; position:absolute; top:764px; left:370px; transform:rotate(-90deg); }
+  .v1_45,.v1_46,.v1_47,.v1_48,.v1_49,.v1_50,.v1_51,.v1_52,.v1_53,.v1_54,.v1_55 { opacity:0; transition:opacity 0.2s; }
+  @keyframes v1-spin    { from{transform:rotate(0deg)}   to{transform:rotate(360deg)} }
+  @keyframes v1-spin-48 { from{transform:rotate(-179deg)} to{transform:rotate(181deg)} }
+  .v1_45.v1-spin, .v1_46.v1-spin { animation: v1-spin    8s linear infinite; }
+  .v1_48.v1-spin                  { animation: v1-spin-48 14s linear infinite; }
 </style>
 </head>
 <body>
 <div id="frame">
 <div class="c1">
+<div class="v1_44">
+  <div class="v1_45"></div>
+  <div class="v1_46"></div>
+  <div class="v1_47"></div>
+  <div class="v1_48"></div>
+  <div class="v1_49"></div>
+  <div class="v1_50"></div>
+  <div class="v1_51"></div>
+  <div class="v1_52"></div>
+  <div class="v1_53"></div>
+  <div class="v1_54"></div>
+  <div class="v1_55"></div>
+</div>
 <div class="c2">
 <div class="c3">
 <div class="c4"></div>
@@ -228,7 +266,7 @@
 <p class="c82">思い通りに動く、強い身体が欲しい</p>
 <p class="c83">마음껏 뛰놀 수 있는 몸을 갖고 싶어</p>
 <div class="c84">
-<img alt="" class="c85" src="img/6f6d3ea7-ab5a-434d-9ddf-85d58673dd71.png"/>
+<img alt="" class="c85" src="img/6f6d3ea7-ab5a-434d-9ddf-85d58673dd71.png"/><img alt="" class="c84-overlay" src="img/eyes_open/eye_08.png"/>
 </div>
 </div>
 <div class="c86">
@@ -274,7 +312,7 @@
 <p class="c116">내일도 또 그 다음 날에도 너와 함께할 수 있다면,</p>
 </div>
 <div class="c117">
-<div class="c118"><img alt="" class="c119" src="img/50330fbc-be46-4241-8e1a-9b95f0056a37.png"/></div>
+<div class="c118"><img alt="" class="c119" src="img/50330fbc-be46-4241-8e1a-9b95f0056a37.png"/><img alt="" class="c118-overlay" src="img/eyes_open/eye_09.png"/></div>
 <div class="c120"></div>
 <p class="c121">また明日も次の日も君と居られたなら、</p>
 <p class="c122">내일도 또 그 다음 날에도 너와 함께할 수 있다면,</p>
@@ -301,7 +339,7 @@
 <div class="c152"><img alt="" class="c153" src="img/5b783bc0-fc22-4979-9fda-19c0fe6e255e.png"/></div>
 <p class="c154">君を忘れたくない</p>
 <p class="c155">너를 잊고 싶지 않아</p>
-<div class="c156"><img alt="" class="c157" src="img/d8f62c3a-c150-40c9-99a3-0a44edd2d7c6.png"/></div>
+<div class="c156"><img alt="" class="c157" src="img/d8f62c3a-c150-40c9-99a3-0a44edd2d7c6.png"/><img alt="" class="c156-overlay" src="img/eyes_open/eye_04.png"/></div>
 <div class="c158"></div>
 <p class="c159">ABILITY</p>
 <p class="c160">目に焼き付ける :</p>
@@ -329,7 +367,7 @@
 <p class="c190">눈을 뜨는 :</p>
 <p class="c191">寝る必要も、食べる必要もない体になれたらいいのに</p>
 <p class="c192">잘 필요도, 먹을 필요도 없는 몸을 가질 수 있다면 좋을 텐데 </p>
-<div class="c193"><img alt="" class="c194" src="img/52f6e22c-650d-4502-9c36-7a28d6a885f6.png"/></div>
+<div class="c193"><img alt="" class="c194" src="img/52f6e22c-650d-4502-9c36-7a28d6a885f6.png"/><img alt="" class="c193-overlay" src="img/eyes_open/eye_03.png"/></div>
 <div class="c195"><img alt="" class="c196" src="img/cfd74b11-df70-4b08-9bb8-d5e6c7138895.png"/></div>
 <div class="c197"><img alt="" class="c198" src="img/803febcf-5b26-4986-8b99-8c303700c6f8.png"/></div>
 <div class="c199"><img alt="" class="c200" src="img/2b77d4b8-a26e-4216-a115-cd95a2a737b7.png"/></div>
@@ -344,7 +382,7 @@
 <div class="c215">
 <p class="c216">君が何を考えているのか、分かればいいのに。</p>
 <p class="c217">네가 무슨 생각을 하는지 알 수 있다면 좋을 텐데.</p>
-<div class="c218"><img alt="" class="c219" src="img/bd08fd5f-78f8-41a9-9b9c-d8eeda742036.png"/></div>
+<div class="c218"><img alt="" class="c219" src="img/bd08fd5f-78f8-41a9-9b9c-d8eeda742036.png"/><img alt="" class="c218-overlay" src="img/eyes_open/eye_07.png"/></div>
 <div class="c220"></div>
 <p class="c221">ABILITY</p>
 <p class="c222">目を盗すむ :</p>
@@ -424,7 +462,7 @@
 <div class="c301"><img alt="" class="c302" src="img/d78bcaef-646f-4eed-87b8-204a464b8cc7.png"/></div>
 <p class="c303">俺みたいなのは、いっそ消えてしまえばいいのに</p>
 <p class="c304">나 같은 건, 아예 없어져 버리면 좋을 텐데</p>
-<div class="c305"><img alt="" class="c306" src="img/fc18047c-1d05-47a7-8f02-014fbe135b76.png"/></div>
+<div class="c305"><img alt="" class="c306" src="img/fc18047c-1d05-47a7-8f02-014fbe135b76.png"/><img alt="" class="c305-overlay" src="img/eyes_open/eye_05.png"/></div>
 <div class="c307"></div>
 <p class="c308">ABILITY</p>
 <p class="c309">目を隠くす :</p>
@@ -451,7 +489,7 @@
 <div class="c341">
 <p class="c342">もっと人に注目されたい</p>
 <p class="c343">좀 더 사람들에게 주목받고 싶어</p>
-<div class="c344"><img alt="" class="c345" src="img/1cd9985f-f3d0-4bdf-a7c1-26d486d446d3.png"/></div>
+<div class="c344"><img alt="" class="c345" src="img/1cd9985f-f3d0-4bdf-a7c1-26d486d446d3.png"/><img alt="" class="c344-overlay" src="img/eyes_open/eye_02.jpg"/></div>
 <div class="c346"></div>
 <p class="c347">ABILITY</p>
 <p class="c348">目を奪う :</p>
@@ -482,7 +520,7 @@
 <div class="c408">
 <p class="c409">こんな体についた傷なんか、消してしまいたい</p>
 <p class="c410">몸에 난 상처따위, 지워버리고 싶어</p>
-<div class="c411"><img alt="" class="c412" src="img/b305bead-6514-4cdc-a8ed-4e2d169f0b3f.png"/></div>
+<div class="c411"><img alt="" class="c412" src="img/b305bead-6514-4cdc-a8ed-4e2d169f0b3f.png"/><img alt="" class="c411-overlay" src="img/eyes_open/eye_06.png"/></div>
 <div class="c413"></div>
 <p class="c414">ABILITY</p>
 <p class="c415">目を欺く :</p>
@@ -504,7 +542,7 @@
 <div class="c436"><img alt="" class="c437" src="img/f413e575-8c20-46db-9da0-5ea80ba8cf3b.png"/></div>
 <p class="c438">ヒヨリに会いたい</p>
 <p class="c439">히요리가 보고 싶어</p>
-<div class="c440"><img alt="" class="c441" src="img/034a4f24-5438-40a6-a971-e5ab4be2c1f0.png"/></div>
+<div class="c440"><img alt="" class="c441" src="img/034a4f24-5438-40a6-a971-e5ab4be2c1f0.png"/><img alt="" class="c440-overlay" src="img/eyes_open/eye_01.png"/></div>
 <div class="c442"></div>
 <p class="c443">ABILITY</p>
 <p class="c444">目を凝らす :</p>
@@ -518,6 +556,19 @@
 <div class="c452"><img alt="" class="c453" src="img/e147b099-40d1-4c12-a0a3-34417ecaa3cb.png"/></div>
 <div class="c454"><img alt="" class="c455" src="img/27cf46c4-56cc-49d4-b968-32f1e0083307.png"/></div>
 <div class="c456"></div>
+
+<div class="c457"></div>
+<div class="c458"></div>
+<div class="c459"></div>
+
+<div class="c460"></div>
+<div class="c461"></div>
+<div class="c462"></div>
+<div class="c463"></div>
+<div class="c464"></div>
+<div class="c465"></div>
+<div class="c466"></div>
+<div class="c467"></div>
 </div>
 </div>
 </div>
@@ -543,7 +594,7 @@
     (function step() {
       if (i < entry.text.length) {
         entry.textSpan.textContent += entry.text.charAt(i++);
-        setTimeout(step, 90);
+        setTimeout(step, 60);
       } else {
         entry.cursor.style.display = 'none';
         if (onDone) onDone();
@@ -584,7 +635,7 @@
     function check() {
       if (played || !pair.jp) return;
       const rect = pair.jp.el.getBoundingClientRect();
-      if (rect.top + rect.height / 2 < window.innerHeight / 2) {
+      if (rect.top + rect.height / 2 < window.innerHeight * 2 / 3) {
         played = true;
         type(pair.jp, function () {
           if (pair.kr) type(pair.kr, function () {
@@ -619,69 +670,84 @@
     if (c193Played) return;
     c193Played = true;
 
-    ['.c185', '.c186', '.c187', '.c188', '.c189', '.c190'].forEach(function (s) {
-      var el = document.querySelector(s);
-      if (el) el.style.opacity = '1';
-    });
+    var overlay193 = document.querySelector('.c193-overlay');
+    if (overlay193) overlay193.style.opacity = '1';
 
-    var glitchSet = ['.c195', '.c203', '.c183', '.c207'];
-    ['.c168', '.c213', '.c211', '.c199', '.c169', '.c205',
-     '.c201', '.c175', '.c177', '.c179', '.c197', '.c166',
-     '.c195', '.c203', '.c183', '.c207'].forEach(function (s, i) {
-      var el = document.querySelector(s);
-      if (el) setTimeout(function () {
-        el.style.opacity = '1';
-        if (glitchSet.indexOf(s) !== -1) applyGlitch(el);
-      }, 800 + i * 100);
-    });
+    setTimeout(function () {
+      ['.c185', '.c186', '.c187', '.c188', '.c189', '.c190'].forEach(function (s) {
+        var el = document.querySelector(s);
+        if (el) el.style.opacity = '1';
+      });
+
+      var glitchSet = ['.c195', '.c203', '.c183', '.c207'];
+      ['.c168', '.c213', '.c209', '.c211', '.c199', '.c169', '.c205',
+       '.c201', '.c175', '.c177', '.c179', '.c197', '.c166',
+       '.c195', '.c203', '.c183', '.c207'].forEach(function (s, i) {
+        var el = document.querySelector(s);
+        if (el) setTimeout(function () {
+          el.style.opacity = '1';
+          if (glitchSet.indexOf(s) !== -1) applyGlitch(el);
+        }, 800 + i * 100);
+      });
+    }, 800);
   });
 
   document.querySelector('.c156').addEventListener('mouseenter', function () {
     if (c156Played) return;
     c156Played = true;
 
-    ['.c158', '.c159', '.c160', '.c163', '.c161', '.c162'].forEach(function (s) {
-      var el = document.querySelector(s);
-      if (el) el.style.opacity = '1';
-    });
+    var overlay = document.querySelector('.c156-overlay');
+    if (overlay) overlay.style.opacity = '1';
 
-    ['.c132', '.c134', '.c136', '.c138', '.c140', '.c142',
-     '.c144', '.c146', '.c148', '.c150', '.c152'].forEach(function (s, i) {
-      var el = document.querySelector(s);
-      if (el) setTimeout(function () { el.style.opacity = '1'; }, 400 + i * 200);
-    });
+    setTimeout(function () {
+      ['.c158', '.c159', '.c160', '.c163', '.c161', '.c162'].forEach(function (s) {
+        var el = document.querySelector(s);
+        if (el) el.style.opacity = '1';
+      });
+
+      ['.c132', '.c134', '.c136', '.c138', '.c140', '.c142',
+       '.c144', '.c146', '.c148', '.c150', '.c152'].forEach(function (s, i) {
+        var el = document.querySelector(s);
+        if (el) setTimeout(function () { el.style.opacity = '1'; }, 400 + i * 200);
+      });
+    }, 800);
   });
   var c411Played = false;
   document.querySelector('.c411').addEventListener('mouseenter', function () {
     if (c411Played) return;
     c411Played = true;
 
-    ['.c413', '.c414', '.c415', '.c418', '.c416', '.c417'].forEach(function (s) {
-      var el = document.querySelector(s);
-      if (el) el.style.opacity = '1';
-    });
+    var overlay411 = document.querySelector('.c411-overlay');
+    if (overlay411) overlay411.style.opacity = '1';
 
-    function startCharGroup(sel1, sel2, delayMs) {
-      var el1 = document.querySelector(sel1);
-      var el2 = document.querySelector(sel2);
-      if (!el1 || !el2) return;
+    setTimeout(function () {
+      ['.c413', '.c414', '.c415', '.c418', '.c416', '.c417'].forEach(function (s) {
+        var el = document.querySelector(s);
+        if (el) el.style.opacity = '1';
+      });
 
-      setTimeout(function () {
-        el2.style.transition = 'opacity 0.8s';
-        el2.style.opacity = '1';
+      function startCharGroup(sel1, sel2, delayMs) {
+        var el1 = document.querySelector(sel1);
+        var el2 = document.querySelector(sel2);
+        if (!el1 || !el2) return;
 
         setTimeout(function () {
-          el1.style.transition = 'opacity 0.8s';
           el2.style.transition = 'opacity 0.8s';
-          el1.style.opacity = '1';
-          el2.style.opacity = '0';
-        }, 800 + 2000);
-      }, delayMs);
-    }
+          el2.style.opacity = '1';
 
-    startCharGroup('.c433', '.c427', 800);
-    startCharGroup('.c431', '.c423', 1600);
-    startCharGroup('.c429', '.c425', 2400);
+          setTimeout(function () {
+            el1.style.transition = 'opacity 0.8s';
+            el2.style.transition = 'opacity 0.8s';
+            el1.style.opacity = '1';
+            el2.style.opacity = '0';
+          }, 800 + 2000);
+        }, delayMs);
+      }
+
+      startCharGroup('.c433', '.c427', 800);
+      startCharGroup('.c431', '.c423', 1600);
+      startCharGroup('.c429', '.c425', 2400);
+    }, 800);
   });
 
   var c218Played = false;
@@ -689,6 +755,10 @@
     if (c218Played) return;
     c218Played = true;
 
+    var overlay218 = document.querySelector('.c218-overlay');
+    if (overlay218) overlay218.style.opacity = '1';
+
+    setTimeout(function () {
     ['.c221', '.c220', '.c222', '.c225', '.c223', '.c224'].forEach(function (s) {
       var el = document.querySelector(s);
       if (el) el.style.opacity = '1';
@@ -728,6 +798,7 @@
         });
       });
     });
+    }, 800);
   });
 
   var c305Played = false;
@@ -735,21 +806,26 @@
     if (c305Played) return;
     c305Played = true;
 
-    ['.c307', '.c308', '.c309', '.c312', '.c310', '.c311'].forEach(function (s) {
-      var el = document.querySelector(s);
-      if (el) el.style.opacity = '1';
-    });
+    var overlay305 = document.querySelector('.c305-overlay');
+    if (overlay305) overlay305.style.opacity = '1';
 
-    ['.c301', '.c317', '.c319', '.c321'].forEach(function (s, i) {
-      var el = document.querySelector(s);
-      if (!el) return;
-      var delay = 0.8 + i * 1.2;
-      el.style.animationName = 'kgr-fade-in-out';
-      el.style.animationDuration = '3.1s';
-      el.style.animationDelay = delay + 's';
-      el.style.animationTimingFunction = 'ease-in-out';
-      el.style.animationFillMode = 'both';
-    });
+    setTimeout(function () {
+      ['.c307', '.c308', '.c309', '.c312', '.c310', '.c311'].forEach(function (s) {
+        var el = document.querySelector(s);
+        if (el) el.style.opacity = '1';
+      });
+
+      ['.c301', '.c317', '.c319', '.c321'].forEach(function (s, i) {
+        var el = document.querySelector(s);
+        if (!el) return;
+        var delay = 0.8 + i * 1.2;
+        el.style.animationName = 'kgr-fade-in-out';
+        el.style.animationDuration = '3.1s';
+        el.style.animationDelay = delay + 's';
+        el.style.animationTimingFunction = 'ease-in-out';
+        el.style.animationFillMode = 'both';
+      });
+    }, 800);
   });
 })();
 </script>
@@ -762,5 +838,284 @@
     <feColorMatrix type="matrix" values="0 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
   </filter>
 </svg>
+<script>
+(function(){
+  var trigger=document.querySelector('.c344');
+  if(!trigger)return;
+  trigger.addEventListener('mouseenter',function(){
+    var overlay=document.querySelector('.c344-overlay');
+    if(overlay)overlay.style.opacity='1';
+    setTimeout(function(){
+      trigger.classList.add('active');
+      var els=['.c356','.c360','.c362','.c364','.c368','.c372','.c374','.c376','.c378','.c382','.c386','.c390','.c394','.c398','.c402','.c404'];
+      els.sort(function(){return Math.random()-0.5;});
+      els.forEach(function(sel,i){
+        var el=document.querySelector(sel);
+        if(el)el.style.setProperty('--fd',(0.8+i*0.1)+'s');
+      });
+    },800);
+  },{once:true});
+})();
+(function(){
+  var trigger=document.querySelector('.c440');
+  if(!trigger)return;
+  trigger.addEventListener('mouseenter',function(){
+    var overlay=document.querySelector('.c440-overlay');
+    if(overlay)overlay.style.opacity='1';
+    setTimeout(function(){
+      ['.c442','.c443','.c444','.c447','.c445','.c446'].forEach(function(s){
+        var el=document.querySelector(s);
+        if(el)el.classList.add('c440-on');
+      });
+      ['.c457','.c458','.c456','.c454','.c459','.c452'].forEach(function(s){
+        var el=document.querySelector(s);
+        if(el)el.classList.add('c440-anim');
+      });
+      setTimeout(function(){
+        var el=document.querySelector('.c436');
+        if(el)el.classList.add('c440-grow');
+      },800);
+    },800);
+  },{once:true});
+})();
+(function(){
+  var trigger=document.querySelector('.c118');
+  if(!trigger)return;
+  trigger.addEventListener('mouseenter',function(){
+    var overlay=document.querySelector('.c118-overlay');
+    if(overlay)overlay.style.opacity='1';
+    setTimeout(function(){
+      ['.c120','.c121','.c122'].forEach(function(s){
+        var el=document.querySelector(s);
+        if(el)el.classList.add('c118-on');
+      });
+      var imgs=['.c460','.c461','.c462','.c463','.c464','.c465','.c466','.c467'];
+      imgs.sort(function(){return Math.random()-0.5;});
+      imgs.forEach(function(s,i){
+        setTimeout(function(){
+          var el=document.querySelector(s);
+          if(el)el.classList.add('c118-show');
+        },800+i*150);
+      });
+    },800);
+  },{once:true});
+})();
+(function(){
+  var target=document.querySelector('.c285');
+  if(!target)return;
+  var obs=new IntersectionObserver(function(entries){
+    if(!entries[0].isIntersecting)return;
+    obs.disconnect();
+    ['.c284','.c285','.c286'].forEach(function(s,i){
+      setTimeout(function(){
+        var el=document.querySelector(s);
+        if(el)el.style.opacity='1';
+      },i*200);
+    });
+  },{rootMargin:'0px 0px -33% 0px'});
+  obs.observe(target);
+})();
+(function(){
+  var el292=document.querySelector('.c292');
+  var el293=document.querySelector('.c293');
+  if(!el292)return;
+  var t292=el292.textContent;
+  var t293=el293?el293.textContent:'';
+  el292.textContent='';
+  if(el293)el293.textContent='';
+  function typeEl(el,txt,onDone){
+    var span=document.createElement('span');
+    var cursor=document.createElement('span');
+    cursor.className='tw-cursor';
+    el.appendChild(span);
+    el.appendChild(cursor);
+    var i=0;
+    (function step(){
+      if(i<txt.length){
+        span.textContent+=txt.charAt(i++);
+        setTimeout(step,60);
+      } else {
+        cursor.style.display='none';
+        if(onDone)onDone();
+      }
+    })();
+  }
+  var obs=new IntersectionObserver(function(entries){
+    if(!entries[0].isIntersecting)return;
+    obs.disconnect();
+    typeEl(el292,t292,function(){
+      if(el293)typeEl(el293,t293);
+    });
+  },{rootMargin:'0px 0px -33% 0px'});
+  obs.observe(el292);
+})();
+(function(){
+  var el295=document.querySelector('.c295');
+  var el296=document.querySelector('.c296');
+  if(!el295)return;
+  var t295=el295.textContent;
+  var t296=el296?el296.textContent:'';
+  el295.textContent='';
+  if(el296)el296.textContent='';
+  function typeEl(el,txt,onDone){
+    var span=document.createElement('span');
+    var cursor=document.createElement('span');
+    cursor.className='tw-cursor';
+    el.appendChild(span);
+    el.appendChild(cursor);
+    var i=0;
+    (function step(){
+      if(i<txt.length){
+        span.textContent+=txt.charAt(i++);
+        setTimeout(step,60);
+      } else {
+        cursor.style.display='none';
+        if(onDone)onDone();
+      }
+    })();
+  }
+  var obs=new IntersectionObserver(function(entries){
+    if(!entries[0].isIntersecting)return;
+    obs.disconnect();
+    typeEl(el295,t295,function(){
+      if(el296)typeEl(el296,t296);
+    });
+  },{rootMargin:'0px 0px -33% 0px'});
+  obs.observe(el295);
+})();
+(function(){
+  var el298=document.querySelector('.c298');
+  var el299=document.querySelector('.c299');
+  if(!el298)return;
+  var t298=el298.textContent;
+  var t299=el299?el299.textContent:'';
+  el298.textContent='';
+  if(el299)el299.textContent='';
+  function typeEl(el,txt,onDone){
+    var span=document.createElement('span');
+    var cursor=document.createElement('span');
+    cursor.className='tw-cursor';
+    el.appendChild(span);
+    el.appendChild(cursor);
+    var i=0;
+    (function step(){
+      if(i<txt.length){
+        span.textContent+=txt.charAt(i++);
+        setTimeout(step,60);
+      } else {
+        cursor.style.display='none';
+        if(onDone)onDone();
+      }
+    })();
+  }
+  var obs=new IntersectionObserver(function(entries){
+    if(!entries[0].isIntersecting)return;
+    obs.disconnect();
+    typeEl(el298,t298,function(){
+      if(el299)typeEl(el299,t299);
+    });
+  },{rootMargin:'0px 0px -33% 0px'});
+  obs.observe(el298);
+})();
+(function(){
+  var trigger=document.querySelector('.c115');
+  if(!trigger)return;
+  var obs=new IntersectionObserver(function(entries){
+    if(!entries[0].isIntersecting)return;
+    obs.disconnect();
+    ['.c114','.c115','.c116'].forEach(function(s){
+      var el=document.querySelector(s);
+      if(el)el.style.opacity='1';
+    });
+  },{rootMargin:'0px 0px -33% 0px'});
+  obs.observe(trigger);
+})();
+(function(){
+  var el288=document.querySelector('.c288');
+  var el290=document.querySelector('.c290');
+  if(!el288)return;
+  var t288=el288.textContent;
+  var t290=el290?el290.textContent:'';
+  el288.textContent='';
+  if(el290)el290.textContent='';
+  function typeEl(el,txt,onDone){
+    var span=document.createElement('span');
+    var cursor=document.createElement('span');
+    cursor.className='tw-cursor';
+    el.appendChild(span);
+    el.appendChild(cursor);
+    var i=0;
+    (function step(){
+      if(i<txt.length){
+        span.textContent+=txt.charAt(i++);
+        setTimeout(step,60);
+      } else {
+        cursor.style.display='none';
+        if(onDone)onDone();
+      }
+    })();
+  }
+  var obs=new IntersectionObserver(function(entries){
+    if(!entries[0].isIntersecting)return;
+    obs.disconnect();
+    typeEl(el288,t288,function(){
+      if(el290)typeEl(el290,t290);
+    });
+  },{rootMargin:'0px 0px -33% 0px'});
+  obs.observe(el288);
+})();
+(function(){
+  var trigger=document.querySelector('.c84');
+  if(!trigger)return;
+  trigger.addEventListener('mouseenter',function(){
+    var overlay=document.querySelector('.c84-overlay');
+    if(overlay)overlay.style.opacity='1';
+    setTimeout(function(){
+      ['.c88','.c89','.c90','.c91','.c92','.c93'].forEach(function(s){
+        var el=document.querySelector(s);
+        if(el)el.style.opacity='1';
+      });
+      setTimeout(function(){
+        var v1s=['.v1_45','.v1_46','.v1_47','.v1_48','.v1_49','.v1_50','.v1_51','.v1_52','.v1_53','.v1_54','.v1_55'];
+        v1s.sort(function(){return Math.random()-0.5;});
+        v1s.forEach(function(s,i){
+          setTimeout(function(){
+            var el=document.querySelector(s);
+            if(el)el.style.opacity=s==='.v1_54'?'0.8':'1';
+            if(s==='.v1_45'||s==='.v1_46'||s==='.v1_48'){
+              setTimeout(function(){ if(el)el.classList.add('v1-spin'); },300);
+            }
+          },i*200);
+        });
+      },800);
+    },800);
+  },{once:true});
+})();
+(function(){
+  var triggered=false;
+  function scrollToTop(){
+    var start=window.scrollY;
+    var duration=500;
+    var startTime=null;
+    function ease(t){return t<0.5?2*t*t:1-Math.pow(-2*t+2,2)/2;}
+    function step(ts){
+      if(!startTime)startTime=ts;
+      var elapsed=ts-startTime;
+      var progress=Math.min(elapsed/duration,1);
+      window.scrollTo(0,start*(1-ease(progress)));
+      if(progress<1){requestAnimationFrame(step);}
+      else{location.reload();}
+    }
+    requestAnimationFrame(step);
+  }
+  window.addEventListener('scroll',function(){
+    if(triggered)return;
+    if(window.scrollY+window.innerHeight>=document.documentElement.scrollHeight-4){
+      triggered=true;
+      scrollToTop();
+    }
+  });
+})();
+</script>
 </body>
 </html>
